@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "slug": "abschlussbewertung",
+      "component": "Abschlussbewertung",
+      "title": "Abschlussbewertung",
+      "link_param": {
+        "name": "veranstaltung",
+        "entity": "veranstaltungen",
+        "label_field": "titel"
+      },
+      "endpoints": [
+        {
+          "entity": "veranstaltungen",
+          "op": "list",
+          "fields": [
+            "titel",
+            "datum",
+            "beschreibung"
+          ],
+          "max_records": 500
+        },
+        {
+          "entity": "abschlussbewertungen",
+          "op": "create",
+          "fields": [
+            "veranstaltung",
+            "kuerzel",
+            "besonders_toll",
+            "verbesserung",
+            "referenzstatement",
+            "email",
+            "einwilligung"
+          ]
+        }
+      ]
+    }
+  ]
+}

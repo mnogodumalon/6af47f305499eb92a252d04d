@@ -36,6 +36,13 @@ export default function ZusammenfassungView() {
     return parts.join('\n\n');
   };
 
+  // a stored text that holds nothing of Vorprompt, Endprompt or the feedbacks was never composed from them
+  const stored = String(zusammenfassungenEdit?.fields.zusammenfassung_text ?? '');
+  const sources = [interaktion?.fields.vorprompt, interaktion?.fields.endprompt, ...myFeedbacks.map(f => f.fields.feedback_text)]
+    .map(s => (s ?? '').trim()).filter(Boolean);
+  const unrelated = loaded && !!interaktion && !!stored.trim() && !sources.some(s => stored.includes(s));
+  const editorValue = unrelated ? '' : stored;
+
   const big = { fontSize: 'clamp(1.5rem, 2.8vh, 3rem)' } as const;
   return (
     <main className="min-h-dvh space-y-6 bg-background p-6 text-foreground md:p-10">
@@ -54,7 +61,7 @@ export default function ZusammenfassungView() {
           <ViewTextEditor
             field="zusammenfassung_text"
             recordId={zusammenfassungenEdit.record_id}
-            value={String(zusammenfassungenEdit.fields.zusammenfassung_text ?? '')}
+            value={editorValue}
             save={async text => {
               await LivingAppsService.updateZusammenfassungenEntry(zusammenfassungenEdit.record_id, { zusammenfassung_text: text });
               zusammenfassungen.apply(zusammenfassungenEdit.record_id, { zusammenfassung_text: text });

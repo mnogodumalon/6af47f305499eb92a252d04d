@@ -1,0 +1,34 @@
+{
+  "pages": {
+    "en": {
+      "Aktiv": "Active",
+      "Aktiv setzen": "Set active",
+      "Aktiv setzen & QR-Code zeigen": "Set active & show QR code",
+      "Aktiv setzen hat nicht geklappt.": "Setting active failed.",
+      "Alle Zusammenfassungen haben eine KI-Antwort.": "All summaries have an AI response.",
+      "Alles beantwortet — keine Zusammenfassung wartet auf eine KI-Antwort.": "All answered — no summary is waiting for an AI response.",
+      "Antwort ablegen": "Save response",
+      "Diese Veranstaltung hat noch keine Interaktionen.": "This event has no interactions yet.",
+      "Erste Veranstaltung anlegen": "Create first event",
+      "Feedbacks (aktiv)": "Feedback (active)",
+      "Interaktion {0} ist jetzt aktiv": "Interaction {0} is now active",
+      "KI-Antwort fehlt": "AI response missing",
+      "Lege deine erste Veranstaltung an.": "Create your first event.",
+      "Letzte Bewertung am {0}": "Last rating on {0}",
+      "Läuft gerade": "Running now",
+      "Neue Abschlussbewertungen": "New final ratings",
+      "Neue Bewertungen": "New ratings",
+      "Neue Interaktion": "New interaction",
+      "Neue Veranstaltung": "New event",
+      "Noch keine Abschlussbewertung eingegangen.": "No final rating received yet.",
+      "Noch keine Interaktion aktiv — wähle eine aus und zeige den QR-Code.": "No interaction active yet — select one and show the QR code.",
+      "Noch keine Veranstaltung — lege eine an und füge ihre Interaktionen in Reihenfolge hinzu.": "No event yet — create one and add its interactions in order.",
+      "Ohne KI-Antwort": "No AI response",
+      "QR-Code zeigen": "Show QR code",
+      "Zusammenfassen": "Summarize",
+      "Zusammenfassungen ohne KI-Antwort": "Summaries without AI response",
+      "{0} läuft — gerade aktiv: „{1}“.": "{0} is running — currently active: \"{1}\"."
+    }
+  },
+  "v": 1
+}

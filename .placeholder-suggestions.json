@@ -1,0 +1,35 @@
+{
+  "VeranstaltungenDialog.tsx": {
+    "titel": "z. B. KI-Workshop Herbst",
+    "datum": "Wann findet es statt?",
+    "beschreibung": "Worum geht es?"
+  },
+  "InteraktionenDialog.tsx": {
+    "veranstaltung": "Welche Veranstaltung?",
+    "reihenfolge": "z. B. 1",
+    "frage": "Welche Frage wird gestellt?",
+    "erlaeuterung": "Hintergrund zur Frage",
+    "vorprompt": "Text vor der Eingabe",
+    "endprompt": "Text nach der Eingabe"
+  },
+  "FeedbacksDialog.tsx": {
+    "interaktion": "Welche Interaktion?",
+    "kuerzel": "z. B. MK",
+    "feedback_text": "Was ist dir aufgefallen?",
+    "eindeutige_kennung": "z. B. FB-2026-001"
+  },
+  "ZusammenfassungenDialog.tsx": {
+    "interaktion": "Welche Interaktion?",
+    "zusammenfassung_text": "Kurzfassung für den Chatbot",
+    "ki_antwort": "Was hat die KI geantwortet?",
+    "erstellt_am": "Wann wurde sie erstellt?"
+  },
+  "AbschlussbewertungenDialog.tsx": {
+    "veranstaltung": "Welche Veranstaltung?",
+    "kuerzel": "z. B. MK-07",
+    "besonders_toll": "Was hat dir gefallen?",
+    "verbesserung": "Was würdest du ändern?",
+    "referenzstatement": "Ein kurzes Zitat für Referenzen",
+    "email": "z. B. name@beispiel.de"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "entities": {
+    "Veranstaltungen": {
+      "placeholders_set": 3,
+      "defaults_keys": [
+        "datum"
+      ],
+      "computed_keys": [],
+      "reason": "Keine Formeln, da die Veranstaltung nur Titel, Datum und Beschreibung ohne numerische Berechnungskette enthält."
+    },
+    "Interaktionen": {
+      "placeholders_set": 6,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Keine Formeln, da es sich um Inhalte ohne numerische Berechnung handelt, und keine Defaults, da aktiv ein bewusst gesetzter Status ist."
+    },
+    "Feedbacks": {
+      "placeholders_set": 4,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Keine Formeln, da es nur Text- und Auswahlfelder gibt und die Reihenfolge der Interaktion keine sinnvolle Berechnung ergibt."
+    },
+    "Zusammenfassungen": {
+      "placeholders_set": 4,
+      "defaults_keys": [
+        "erstellt_am"
+      ],
+      "computed_keys": [],
+      "reason": "Keine Formeln, da nur Text- und Datumsfelder vorhanden sind und die Reihenfolge der Interaktion keine Berechnung ergibt."
+    },
+    "Abschlussbewertungen": {
+      "placeholders_set": 6,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Keine Formeln, da das Formular nur Text, Auswahl und Einwilligung enthält und keine numerischen Felder oder Datumspaare."
+    }
+  }
+}
